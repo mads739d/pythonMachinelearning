@@ -2,20 +2,39 @@
 Applied machinelearning course exercises
 
 # Setup for Windows
-First run the activation of the virtual enviroment with the function:
-
-venv\Scripts\activate.bat
-
-When this is done the requirements cen be installed in to the enviroment with the function:
-
-pip install -r requirements.txt
-
-# Setup for MacOs
+This setup is for Windows 10 running Python 3.10.2
 
 First create a virtualenviroment with the command
 
-'''bash
-    python3 -m venv venv
-'''
+```bash
+    python -m venv venv
+```
+Next step is to activate the new enviroment
 
-next step is to 
+```bash
+    venv\Scripts\activate.bat
+```
+When this is done the requirements can be imported/installed
+
+```bash
+    pip install -r requirements.txt
+```
+
+# Setup for MacOs
+This setup is for MacOs running Python3
+
+First create a virtualenviroment with the command
+
+```bash
+    python3 -m venv venv
+```
+Next step is to activate the new enviroment
+
+```bash
+    source venv/bin/activate
+```
+When this is done the requirements can be imported/installed
+
+```bash
+    pip3 install -r requirements.txt
+```
