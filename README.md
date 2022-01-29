@@ -20,6 +20,8 @@ When this is done the requirements can be imported/installed
     pip install -r requirements.txt
 ```
 
+<https://www.youtube.com/watch?v=6W6iY7uUu34&ab_channel=freeCodeCamp.org>
+
 # Setup for MacOs
 This setup is for MacOs running Python3
 
@@ -38,3 +40,5 @@ When this is done the requirements can be imported/installed
 ```bash
     pip3 install -r requirements.txt
 ```
+
+<https://mnzel.medium.com/how-to-activate-python-venv-on-a-mac-a8fa1c3cb511>
